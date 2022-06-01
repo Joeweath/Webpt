@@ -1,14 +1,19 @@
-class Copier {
+export default class Copier {
   constructor(arg = undefined){
-
+    this.copy = {}
   }
 
-  get(){
+  get(arg){
+    new Promise(resolve => setTimeout(resolve, delay))
+    this.arg(1000).then(() => this.copy)
     
   }
 
-  delete(){
-
+  delete(arg){
+    new Promise(reject => setTimeout(resolve, reject))
+    reject(new Error('Cannot delete!')
+    
+    )
   }
 
   copy(){
